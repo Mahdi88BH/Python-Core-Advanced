@@ -1,3 +1,23 @@
 1. Function Call
-    - In computer programming, a function call (or function invocation) is the act of directing the computer to execute a specific, pre-defined block of code.
-    - When you "call" a function, the program temporarily pauses its current flow, jumps to the function's definition, runs the instructions inside, and then returns to where it left off.
+    - In computer programming, a function call (or function invocation) is 
+    the act of directing the computer to execute a specific, pre-defined block
+    of code.
+    - When you "call" a function, the program temporarily pauses its current 
+    flow, jumps to the function's definition, runs the instructions inside, 
+    and then returns to where it left off.
+
+2. Assignment Statement
+    - An assignment statement is a line of code that creates a new variable 
+    or updates the value of an existing one. It uses the assignment operator 
+    (typically the = symbol) to store a specific piece of data in a labeled spot 
+    in the computer's memory.
+
+3. Keywords
+    - In Python, keywords (also known as reserved words) are specific terms 
+    that the language has claimed for its own internal logic and structure. 
+    Because they have a predefined meaning to the Python interpreter, you 
+    cannot use them as names for your variables, functions, or classes.
+
+
+
+
