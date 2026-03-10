@@ -1,4 +1,4 @@
-1. Function Call
+                1. Function Call
     - In computer programming, a function call (or function invocation) is 
     the act of directing the computer to execute a specific, pre-defined block
     of code.
@@ -6,18 +6,55 @@
     flow, jumps to the function's definition, runs the instructions inside, 
     and then returns to where it left off.
 
-2. Assignment Statement
+                2. Assignment Statement
     - An assignment statement is a line of code that creates a new variable 
     or updates the value of an existing one. It uses the assignment operator 
     (typically the = symbol) to store a specific piece of data in a labeled spot 
     in the computer's memory.
 
-3. Keywords
+                3. Keywords
     - In Python, keywords (also known as reserved words) are specific terms 
     that the language has claimed for its own internal logic and structure. 
     Because they have a predefined meaning to the Python interpreter, you 
     cannot use them as names for your variables, functions, or classes.
 
+                4. keyword arguments
+    - In Python, keyword arguments (often called "kwargs") are arguments 
+    passed to a function by explicitly naming the parameter followed 
+    by an equals sign and a value (e.g., name="Alice").
+    - This is the opposite of positional arguments, where Python 
+    decides which value goes to which variable based solely on 
+    the order in which you typed them.
 
+                5. Contract Programming
+In Python, these three concepts form the foundation of Contract 
+Programming. Think of it as a legal agreement between the person who 
+wrote the code and the person who is using it.
 
+1. Interface
+- An Interface is the "public face" of your code. It tells the user what a 
+component can do without revealing how it does it.
+- In Python, interfaces aren't as rigid as in languages like Java, 
+but we implement them in two main ways:
+    - Informal Interfaces: Simply a class with methods that others are 
+    expected to override.
+    - Formal Interfaces (ABCs): Using the abc (Abstract Base Classes) 
+    module to enforce that a subclass must implement certain methods.
 
+2. Precondition
+- A Precondition is a requirement that must be true before a function or 
+method starts executing. It is the caller's responsibility to meet these 
+conditions.
+    - Example: A function that calculates square roots might have a 
+    precondition that the input $x$ must be $\ge 0$.
+    - In Python: These are often checked using if statements that raise 
+    a ValueError or by using assert statements.
+
+3. Postcondition
+- A Postcondition is a guarantee that must be true after the function 
+has finished running, provided the preconditions were met. It is 
+the function's "promise" to the user.
+    - Example: A sorting function’s postcondition is that the returned 
+    list is in ascending order.
+    - In Python: These are usually verified during testing or at the end 
+    of a function to ensure the logic didn't break.
