@@ -6,17 +6,20 @@
     flow, jumps to the function's definition, runs the instructions inside, 
     and then returns to where it left off.
 
+
                 2. Assignment Statement
     - An assignment statement is a line of code that creates a new variable 
     or updates the value of an existing one. It uses the assignment operator 
     (typically the = symbol) to store a specific piece of data in a labeled spot 
     in the computer's memory.
 
+
                 3. Keywords
     - In Python, keywords (also known as reserved words) are specific terms 
     that the language has claimed for its own internal logic and structure. 
     Because they have a predefined meaning to the Python interpreter, you 
     cannot use them as names for your variables, functions, or classes.
+
 
                 4. keyword arguments
     - In Python, keyword arguments (often called "kwargs") are arguments 
@@ -25,6 +28,7 @@
     - This is the opposite of positional arguments, where Python 
     decides which value goes to which variable based solely on 
     the order in which you typed them.
+
 
                 5. Contract Programming
 In Python, these three concepts form the foundation of Contract 
@@ -58,3 +62,21 @@ the function's "promise" to the user.
     list is in ascending order.
     - In Python: These are usually verified during testing or at the end 
     of a function to ensure the logic didn't break.
+
+
+                6. Conditional statements
+- Conditional statements are the "forks in the road" of your code. They 
+allow your program to make decisions and execute different blocks of 
+code based on whether a condition is True or False.
+
+                7. branches.
+- In programming, branching is the formal term for using conditional 
+statements to create different execution paths. It is called "branching" 
+because, like a tree or a fork in the road, the flow of the program 
+splits based on a decision.
+
+                8. Base Case
+- In the context of recursion, a Base Case is the "stop sign." it is a 
+simple condition that returns a value without making any further 
+recursive calls. Without a base case, a function would keep calling 
+itself forever, leading to the Infinite Recursion we just discussed.
