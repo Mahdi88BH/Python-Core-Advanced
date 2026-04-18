@@ -1,0 +1,5 @@
+today i went through my old images.
+some of the images were taken in 2024, and others are even older.
+it is important to organize these images properly.
+the directory containing these files is called 'images'.
+i need to make sure i don't delete any important images by mistake!
