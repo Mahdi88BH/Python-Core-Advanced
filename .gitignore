@@ -1,0 +1,12 @@
+# Ignore the .git folder (though Git usually handles this)
+.git/
+
+# Ignore local database/shelf files
+*.bak
+*.dat
+*.dir
+
+# Ignore local system and environment files
+.ipynb_checkpoints/
+__pycache__/
+.env

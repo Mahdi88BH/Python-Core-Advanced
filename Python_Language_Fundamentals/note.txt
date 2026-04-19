@@ -1,0 +1,5 @@
+Today I went through my old photos.
+Some of the photos were taken in 2024, and others are even older.
+It is important to organize these photos properly.
+The directory containing these files is called 'photos'.
+I need to make sure I don't delete any important photos by mistake!
