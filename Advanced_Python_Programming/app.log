@@ -1,0 +1,24 @@
+2026-07-06 12:30:36,158 | __main__ | INFO | Division succeful
+2026-07-06 12:31:24,364 | __main__ | ERROR | Attempted to devide by zero
+2026-07-06 12:31:24,372 | __main__ | INFO | Division succeful
+2026-07-06 12:31:43,153 | __main__ | ERROR | Attempted to devide by zero
+2026-07-06 12:31:43,153 | __main__ | ERROR | Attempted to devide by zero
+2026-07-06 12:33:18,033 | __main__ | ERROR | An unhandled exception occurred during processing:
+Traceback (most recent call last):
+  File "/tmp/ipykernel_20459/525818182.py", line 2, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+2026-07-06 12:33:18,033 | __main__ | ERROR | An unhandled exception occurred during processing:
+Traceback (most recent call last):
+  File "/tmp/ipykernel_20459/525818182.py", line 2, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+2026-07-06 12:57:02,305 | __main__ | INFO | Division succeful
+2026-07-06 12:57:02,305 | __main__ | INFO | Division succeful
+2026-07-06 12:57:29,968 | __main__ | ERROR | Attempted to devide by zero
+2026-07-06 12:57:29,968 | __main__ | ERROR | Attempted to devide by zero
+2026-07-06 13:11:05,370 | __main__ | INFO | Division succeful
+2026-07-06 13:11:05,404 | __main__ | ERROR | Attempted to devide by zero
+2026-07-06 13:11:05,500 | __main__ | INFO | Division succeful
+2026-07-06 13:11:05,530 | __main__ | ERROR | Attempted to devide by zero
+2026-07-06 13:41:29,718 | __main__ | INFO | This log statement is entirely non-blocking!
